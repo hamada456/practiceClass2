@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             }
             //引き算ボタン
             btnSub.setOnClickListener {
-                //var su = Calc()
+                //var su = Calc()//ではなく↓こんなふうにもかける
                 var result = Calc().sub(etNum1,etNum2)
                 et1.text = "合計は$result"
             }
